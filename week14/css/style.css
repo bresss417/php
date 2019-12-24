@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+}
+.menu{
+    width: 100%;
+    background-color: blueviolet;
+    overflow: auto;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+.menu li{
+    float: left;
+}
+.menu ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.menu li a:hover{
+    color:salmon;
+    opacity:0.30;
+    font-size: 20px;
+}
+.search{
+    margin-top:15px;
+    float: right;
+    margin-right: 15px;
+}
+input[type="text"],input[type="password"]{
+    color: springgreen;
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+}
+button{
+    float: right;
+    border-radius: 0px 5px 5px 0;
+    background-color: skyblue;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    font-family: sans-serif;
+    font-size: 21px;
+    margin-left: 10px;
+}
+#add{
+    color:seashell;
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+    background-color:black;
+}
